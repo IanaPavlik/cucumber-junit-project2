@@ -1,6 +1,6 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/IanaPavlik/cucumber-junit-project2.git'
+        git 'https://github.com/mehmetCt/cucumber-junit-project.git'
     }
 
     stage('Run tests'){
